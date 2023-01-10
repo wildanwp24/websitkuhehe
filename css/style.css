@@ -1,0 +1,173 @@
+body{
+    font-family: Arial;
+    background-color: #232323;
+}
+.medsos{
+    background-color: aqua;
+    padding: 1px;
+    margin: 0 auto;
+    font-size:30px;
+}
+.fa-shopping-cart{
+  margin-left: auto;
+}
+.fa-user{
+  margin-left: 640px;
+}
+.medsos ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 3px;
+}
+.container ul li{
+    display: inline-block;
+    margin-right: 30px;
+    border : 1px solid;
+    padding: 5px;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.container header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 0 auto;
+}
+header h1{
+    padding: 15px 0;
+    color:  #fd0000 ;
+}
+header ul li a{
+    padding: 5px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+}
+.active{
+    transition: 0.3s ease;
+    background: aqua;
+      
+}
+.lokasi iframe{
+    float: right;
+    padding: 5px;
+    width: 400px;
+}
+.lokasi{
+  background-color: rgb(209, 207, 207);
+}
+.container h4 p{
+    text-align: left;
+}
+.box ul li a{
+    padding: 50px 50px;
+    display: inline-block;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+ 
+.table1, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 20px;
+}
+
+#slider {
+    width:700px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #c69;
+  }
+  
+  .slide {
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: relative;
+  }
+  
+  #slide-holder {
+    width: 400%;
+    position: relative;
+    left: 0;
+    -webkit-animation: scroller 10s infinite;
+            animation: scroller 10s infinite;
+  }
+
+  
+  @-webkit-keyframes scroller {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    33% {
+      -webkit-transform: translateX(-400px);
+              transform: translateX(-400px);
+    }
+    66% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  
+  @keyframes scroller {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    33% {
+      -webkit-transform: translateX(-400px);
+              transform: translateX(-400px);
+    }
+    66% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+}
+body {
+  font-family: sans-serif;
+}
+
+#slider {
+  margin: 0 auto;
+}
+.slide image{
+    background: #c69;
+}
+
+
+.cmrhikvision td {
+      border: 1px solid rgb(0, 0, 0);
+      width: 20%;
+      height: auto;
+  }
+.login{
+  text-align: center;
+  background-color: aquamarine;
+  size 
+}
+.daftar{
+  text-align: center;
+}
+
+  
